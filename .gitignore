@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+.conda
 # Distribution / packaging
 .Python
 build/
