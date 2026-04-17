@@ -17,10 +17,10 @@ echo "==> Activating venv …"
 source "$VENV_DIR/bin/activate"
 
 echo "==> Upgrading pip …"
-pip install --upgrade pip --quiet
+pip install  --user --upgrade pip --quiet
 
 echo "==> Installing dependencies …"
-pip install \
+pip install --user \
     # ── Deep learning / model inference ──────────────────────────────────
     torch \
     transformers \
